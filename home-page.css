@@ -1,0 +1,143 @@
+:root{
+    --primary-color: #D2872C;
+    --second-color: #766F68;
+}
+
+body{
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+
+html{
+    font-family: Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home-page{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    min-height: 520px;
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    background: url("/assets/team.jpg") no-repeat;
+    background-position: 28vw 23vh;
+    background-size: 60%;
+
+
+}
+
+
+#home-page .content{
+    width: 89%;
+    max-width: 1100px;
+    
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#home-page header{
+    display: flex;
+
+    align-items: center;
+
+    
+
+    justify-content: space-between;
+}
+
+#home-page header h4{
+    color: var(--primary-color);
+
+    font-size: 25px;
+
+}
+
+#home-page header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#home-page header li ul{
+    position: absolute;
+    display: none;
+}
+
+#home-page header li:hover ul,
+#home-page header li.over ul{
+    display: block;
+}
+
+
+
+#home-page header a{
+    margin-right: 5px;
+    color: black;
+
+    font-size: 15px;
+}
+
+#home-page .main{
+    display: flex;
+
+    max-width: 1100px;
+
+    margin-top: 1px;
+    margin-left: 25px;
+}
+
+.main .texto{
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+}
+
+.main .texto h1{
+    color: var(--second-color);
+
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.main p{
+    color: var(--second-color);
+
+    font-size: 28px;
+
+    width: 65%;
+
+    margin-bottom: 30px
+}
+
+.main button{
+    width: 260px;
+    height: 51px;
+    border-radius: 8px;
+    border: 0;
+
+    padding-top: 9px;
+    background-color: var(--primary-color);
+    color: white;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
